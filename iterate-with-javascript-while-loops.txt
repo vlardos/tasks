@@ -1,0 +1,8 @@
+// Setup
+const myArray = [];
+let a =5;
+while (a>=0){
+  myArray.push(a)
+  a--;
+}
+// Only change code below this line
