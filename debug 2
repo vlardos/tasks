@@ -1,0 +1,5 @@
+function mystery(results) {
+  var results =
+   { sanity: 'Hello'};
+  return results;
+}
