@@ -1,0 +1,7 @@
+function strCount(str, letter){  
+ let x = 0;
+  for(let i of str){
+    if (i.includes(letter))
+      x++//code here
+} return x
+}
