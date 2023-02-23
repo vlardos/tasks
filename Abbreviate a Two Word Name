@@ -1,0 +1,7 @@
+function abbrevName(name){
+const arr = name.split(' ')
+  const x = arr[0];
+  const r = arr[1];
+  const result = x[0].toUpperCase() + '.' + r[0].toUpperCase()// code away
+return result;
+}
