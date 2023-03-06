@@ -1,0 +1,8 @@
+function findAverage(array) {
+ 
+  let result = 0;
+if (array != 0) {array.forEach(x => result += x)
+  return result / array.length}
+  return 0;
+  
+}
