@@ -1,0 +1,10 @@
+function highAndLow(numbers){
+const arr = numbers.split(' ')
+let lowest = +arr[0]  
+let highest = +arr[0]
+for(let n of arr){
+  if(+n < lowest)lowest = +n
+  if(+n >highest)highest = +n
+}
+  return `${highest} ${lowest}`
+}
