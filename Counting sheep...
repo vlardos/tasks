@@ -1,0 +1,6 @@
+function countSheeps(arrayOfSheep) {
+let a = arrayOfSheep.filter(el => el === true)
+
+  return a.length 
+
+  }
