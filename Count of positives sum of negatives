@@ -1,0 +1,13 @@
+function countPositivesSumNegatives(input) {
+if(!input || !input.length)return []
+  let s = 0
+let f = 0
+ input.forEach(el => {
+   if(el > 0){
+    f++ 
+   }else{
+     s+= el
+   }
+ })
+return [f,s]
+}
